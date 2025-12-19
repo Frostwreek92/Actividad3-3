@@ -1,4 +1,4 @@
-package com.example.actividad3_3.ui
+package com.example.actividad3_3.ui.screens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

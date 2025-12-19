@@ -1,4 +1,4 @@
-package com.example.actividad3_3
+package com.example.actividad3_3.ui.screens
 
 import android.content.Context
 import android.content.Intent
@@ -30,11 +30,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.example.actividad3_3.R
 import com.example.actividad3_3.data.DataSource
-import com.example.actividad3_3.ui.OrderSummaryScreen
 import com.example.actividad3_3.ui.OrderViewModel
-import com.example.actividad3_3.ui.SelectOptionScreen
-import com.example.actividad3_3.ui.StartOrderScreen
 
 enum class CupcakeScreen(@StringRes val title: Int) {
     Start(title = R.string.app_name),
